@@ -1,0 +1,100 @@
+//navbar//
+
+.navbar-default{
+	background-color:transparent !important;
+    padding: 25px 0;
+    -webkit-transition: padding .3s;
+    -moz-transition: padding .3s;
+    transition: padding .3s;
+    border-color:transparent !important;
+
+    .navbar-toggle {
+    background-color:$amarillo;
+    border-color: $amarillo;
+	
+		&:hover{
+			background-color:$amarillo !important;
+		}
+		&:focus{
+			background-color:$amarillo !important;
+		}
+	}
+}
+
+.navbar-default .navbar-brand{
+	color: $amarillo !important;
+    font-family: $kaushan;
+	font-size:2em;
+    transition: all .3s;
+    	&:hover{
+    		color:$amosc !important;
+    	}
+}
+
+.navbar-default .nav li a{
+	font-family: $montserrat;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: $blanco !important;
+    background-color:transparent !important;
+    	&:hover{
+    		color:$amarillo !important;
+    	}
+}
+
+
+//header//
+
+header.hero {
+	background-image: url(../../img/header-bg.jpg);
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover !important;
+    text-align: center;
+    color: #fff;
+    height:730px;
+    width:100%;
+}
+
+.texto-intro{
+	padding-top: 300px;
+    padding-bottom: 200px;
+    .intro-altas{
+	    font-family: $droid;
+	    font-style: italic;
+	    font-size: 40px;
+	    line-height: 40px;
+	    margin-bottom: 25px;
+    }
+    .intro-parrafo{
+	    font-family: $montserrat;
+	    text-transform: uppercase;
+	    font-weight: 700;
+	    font-size: 75px;
+	    line-height: 75px;
+	    margin-bottom: 50px;
+    }
+    .boton{
+	color: $blanco;
+    background-color: $amarillo;
+    border-color: $amarillo;
+    font-family:$montserrat;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 3px;
+    font-size: 18px;
+    padding: 20px 40px;
+
+    	&:hover{
+    		color:$blanco;
+    		background-color:$amosc;
+    	}
+	}
+}
+
+
+
+
+
+

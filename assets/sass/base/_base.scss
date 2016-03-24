@@ -1,0 +1,24 @@
+//utilities//
+
+h1, h2, h4, h5, h6 {
+    font-family: $montserrat !important;
+    text-transform: uppercase;
+    font-weight: 700 !important;
+}
+.text-primary {
+    color: $amarillo !important;
+}
+
+.bg-light-gray {
+    background-color: $gris-claro;
+}
+
+a {
+    color:$amarillo;
+}
+
+a, a:hover, a:focus, a:active, a.active{
+	outline:0;
+}
+
+//margin-padding//
